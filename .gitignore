@@ -1,0 +1,22 @@
+﻿# never commit the board the user is inspecting (large, and it is not ours to publish)
+*.cad
+!tests/fixtures/*.cad
+
+# build/install artefacts
+__pycache__/
+*.pyc
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+
+# scratch notes and local dumps
+*.out.json
+scratch/
+# raw investigation dumps (regenerable with scripts/state_snapshot.py)
+docs/raw/
+docs/raw/

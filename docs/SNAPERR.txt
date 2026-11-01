@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "S:\WindowsLibraries\Documents\GPU REPAIR\boardview-mcp\scripts\state_snapshot.py", line 17, in <module>
+    from boardview_mcp.tools import bridge_eligibility, evaluate_crossing
+ImportError: cannot import name 'bridge_eligibility' from 'boardview_mcp.tools' (S:\WindowsLibraries\Documents\GPU REPAIR\boardview-mcp\src\boardview_mcp\tools.py)
